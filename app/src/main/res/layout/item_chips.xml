@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:scrollbars="none"
-    android:paddingHorizontal="@dimen/spacing_medium"
     android:background="@color/background"
     android:clipToPadding="false"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    android:paddingHorizontal="@dimen/spacing_medium"
+    android:scrollbars="none">
 
     <com.google.android.material.chip.ChipGroup
         android:id="@+id/chips_filter"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginVertical="@dimen/spacing_small"
         app:checkedChip="@+id/chip_all_recipes"
         app:chipSpacingHorizontal="@dimen/spacing_small"
-        android:layout_marginVertical="@dimen/spacing_small"
         app:selectionRequired="true"
         app:singleSelection="true">
 
@@ -30,32 +29,32 @@
             android:id="@+id/chip_breakfast"
             style="@style/ChipStyle"
             android:layout_width="wrap_content"
-            android:checked="false"
             android:layout_height="wrap_content"
+            android:checked="false"
             android:text="@string/rock" />
 
         <com.google.android.material.chip.Chip
             android:id="@+id/chip_desert"
             style="@style/ChipStyle"
-            android:checked="false"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:checked="false"
             android:text="@string/hip_hop" />
 
         <com.google.android.material.chip.Chip
             android:id="@+id/chip_dinner"
             style="@style/ChipStyle"
             android:layout_width="wrap_content"
-            android:checked="false"
             android:layout_height="wrap_content"
+            android:checked="false"
             android:text="@string/rock" />
 
         <com.google.android.material.chip.Chip
             android:id="@+id/chip_snack"
             style="@style/ChipStyle"
             android:layout_width="wrap_content"
-            android:checked="false"
             android:layout_height="wrap_content"
+            android:checked="false"
             android:text="@string/hip_hop" />
 
     </com.google.android.material.chip.ChipGroup>

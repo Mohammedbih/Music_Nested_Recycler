@@ -3,16 +3,15 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="@dimen/big_card_width"
-    app:strokeWidth="0dp"
+    android:layout_height="@dimen/big_card_height"
     android:layout_marginHorizontal="8dp"
-    android:layout_height="@dimen/big_card_height">
+    app:strokeWidth="0dp">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
         <ImageView
-            android:scaleType="centerCrop"
             android:id="@+id/image_big_card"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
