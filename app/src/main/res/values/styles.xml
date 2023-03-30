@@ -31,6 +31,7 @@
         <item name="android:textSize">@dimen/font_size_body</item>
         <item name="android:fontFamily">@font/poppins_medium</item>
         <item name="checkedIconVisible">false</item>
+        <item name="chipCornerRadius">24dp</item>
         <item name="chipStartPadding">8dp</item>
         <item name="chipEndPadding">8dp</item>
     </style>
